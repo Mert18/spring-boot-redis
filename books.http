@@ -1,1 +1,10 @@
-GET http://localhost:8080/book
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "ISBN": "1412403453918023423342121",
+  "title": "Someday Soon"
+}
+
+###
+GET http://localhost:8080/api/books
